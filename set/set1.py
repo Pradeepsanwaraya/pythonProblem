@@ -1,0 +1,10 @@
+a={1,2}
+b={1,2,3,4}
+print(a>b)
+print(a.issubset(b))
+print(b.issuperset(a))
+print(a.issuperset(b))
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+print(b.difference(a))
