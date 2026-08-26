@@ -48,24 +48,6 @@
 # Explanation:
 
 # (1,3), (3,5), (2,4)
-row=int(input("enter a row"))
-target=2
-A=[]
-for j in range(row):
-    x=int(input("enter a list"))
-    A.append(x)
-print(A)
-
-
-# A=list(map(int,input("enter a list").split()))
-# target=2
-# count=0
-# for i in range(len(A)):
-#     # count=0
-#     for j in range(i+1,len(A)-1):
-#         if A[i]-A[j]==target:
-#            count=count+1
-# print(count)
 
 
 # 2.
