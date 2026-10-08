@@ -131,6 +131,57 @@
 #         topper=i
 # print("topper is :",topper.name,topper.marks)
 
-class BankAccount:
-    bank="infobeans"
-    total_
+# class BankAccount:
+#     bank="infobeans"
+#     total_accounts=0
+#     def __init__(self,accno,name,balance):
+#         self.accno=accno
+#         self.name=name
+#         self.balance=balance
+#         BankAccount.total_accounts += 1
+#     def show(self):
+#         print(f"Account number is {self.accno}\n Name of account holder is {self.name}\n Total balance is {self.balance}")
+#     def deposite(self,add):
+#         self.balance=self.balance+add
+#         print(self.balance)
+#     def withdraw(self,minus):
+#         if minus>self.balance:
+#             print("Insufficient amount")
+#         else:
+#             self.balance -= minus
+#             print(f"{minus} nikale gaye")
+#     def get_balance(self):
+#         return self.balance
+# obj=BankAccount("877451016156161","pradeep",7859)
+# obj1=BankAccount("864984368635856","Ravi",7000)
+# obj2=BankAccount("481491854181689","deep",8000)
+# obj.show()
+# obj.deposite(1000)
+# obj.withdraw(4000)
+# print(obj.get_balance())
+
+
+class Person:
+    def __init__(self,name , age):
+        self.name=name
+        self.age=age
+    def intro(self):
+        print(f"Mera naam {self.name} hai, umar {self.age} hai")
+
+class Student(Person):
+    def study(self):
+        print(f"{self.name} padai kar ra he")
+
+obj=Student("pradeep",23)
+obj1=Student("Ajay",24)
+obj2=Student("Ravi",25)
+obj.intro()
+obj.study()
+students=[obj,obj1,obj2]
+for student in students:
+    print(student.name,student.age)
+
+
+
+
+
