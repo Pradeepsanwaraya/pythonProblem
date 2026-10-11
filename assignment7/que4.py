@@ -1,5 +1,18 @@
 subjects=frozenset(["Python","Java","MySQL","React","Spring Boot"])
 
+class Solution(object):
+    def reverseList(self, head):
+        prev = None
+        curr = head
+
+        while curr:
+            next_node = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next_node
+
+        return prev
+
 while True:
     print("1. Display Subjects")
     print("2. Search Subject")
