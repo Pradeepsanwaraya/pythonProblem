@@ -49,3 +49,27 @@ while True:
 
     else:
         print("Invalid Choice")
+
+
+
+class Solution(object):
+    def gameOfLife(self, board):
+        rows = len(board)
+        cols = len(board[0])
+        copy = [row[:] for row in board]
+
+        for i in range(rows):
+            for j in range(cols):
+                live = 0
+
+                for r in range(max(0, i - 1), min(rows, i + 2)):
+                    for c in range(max(0, j - 1), min(cols, j + 2)):
+                        if (r, c) != (i, j) and copy[r][c] == 1:
+                            live += 1
+
+                if copy[i][j] == 1:
+                    if live < 2 or live > 3:
+                        board[i][j] = 0
+                else:
+                    if live == 3:
+                        board[i][j] = 1
