@@ -98,3 +98,37 @@ class Solution(object):
             word_to_char[word] = ch
 
         return True
+
+
+
+class Solution(object):
+    def pathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: int
+        """
+        # prefix_count[s] = how many times prefix sum s appeared on the current root-to-node path
+        prefix_count = {0: 1}  # empty prefix, so paths starting at root are counted
+
+        def dfs(node, curr_sum):
+            if not node:
+                return 0
+
+            curr_sum += node.val
+
+            # How many earlier prefixes make a path ending here sum to targetSum?
+            count = prefix_count.get(curr_sum - targetSum, 0)
+
+            # Add current prefix for the children
+            prefix_count[curr_sum] = prefix_count.get(curr_sum, 0) + 1
+
+            count += dfs(node.left, curr_sum)
+            count += dfs(node.right, curr_sum)
+
+            # Backtrack: remove current prefix when leaving this node
+            prefix_count[curr_sum] -= 1
+
+            return count
+
+        return dfs(root, 0)
