@@ -166,3 +166,30 @@ class Solution(object):
             result[key].append(s)
 
         return list(result.values())
+
+
+
+class Solution(object):
+    def rightSideView(self, root):
+        if not root:
+            return []
+
+        queue = [root]
+        result = []
+
+        while queue:
+            size = len(queue)
+
+            for i in range(size):
+                node = queue.pop(0)
+
+                if node.left:
+                    queue.append(node.left)
+
+                if node.right:
+                    queue.append(node.right)
+
+                if i == size - 1:
+                    result.append(node.val)
+
+        return result
