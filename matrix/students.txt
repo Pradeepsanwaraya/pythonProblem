@@ -1,0 +1,8 @@
+101,Rahul,Python,85
+102,Priya,Java,
+103,Amit,SQL,abc
+104,Neha,Python,105
+105,Sara,HTML,35
+106,Karan,Python,92
+107,,Java,70
+108,Pooja,SQL

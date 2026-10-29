@@ -1,0 +1,5 @@
+Error: 102,Priya,Java, -> Required data is missing
+Error: 103,Amit,SQL,abc -> Marks must be numeric
+Error: 104,Neha,Python,105 -> Marks must be between 0 and 100
+Error: 107,,Java,70 -> Required data is missing
+Error: 108,Pooja,SQL -> Marks are missing

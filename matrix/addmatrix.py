@@ -1,3 +1,126 @@
+# r1=int(input("enter a numbber of rows"))
+# c1=int(input("enter a numbber of columns"))
+# A=[]
+# for i in range(r1):
+#     temp=[]
+#     for j in range(c1):
+#         x=int(input("enter a ellement"))
+#         temp.append(x)
+#     A.append(temp)
+# B=[]
+# for i in range(r1):
+#     temp=[]
+#     for j in range(c1):
+#         x=int(input("enter a ellement"))
+#         temp.append(x)
+# for i in range(r1):
+#     temp=[]
+#     for j in range(c1):
+#         x=int(input("enter a ellement"))
+#         temp.append(x)
+#     A.append(temp)
+#     A.append(temp)
+
+r1=int(input("enter row1"))
+c1=int(input("enter col1"))
+
+a=[]
+
+for i in range(r1):
+    temp=[]
+    for j in range(c1):
+        x=int(input("enter element"))
+        temp.append(x)
+    a.append(temp)
+
+r2=int(input("enter row2"))
+c2=int(input("enter col2"))
+
+b=[]
+
+for i in range(r2):
+    temp=[]
+    for j in range(c2):
+        x=int(input("enter element"))
+        temp.append(x)
+    b.append(temp)
+
+if c1==r2:
+
+    result=[]
+
+    for i in range(r1):
+        temp=[]
+
+        for j in range(c2):
+            s=0
+
+            for k in range(c1):
+                s=s+a[i][k]*b[k][j]
+
+            temp.append(s)
+
+        result.append(temp)
+
+    print("multiplication")
+
+    for i in range(r1):
+        for j in range(c2):
+            print(result[i][j],end=" ")
+        print()
+
+else:
+    print("multiplication not possible") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # # row=int(input("enter a row"))
 # # col=int(input("enter a column"))
 # # A=[]
@@ -439,34 +562,34 @@
 #     print("Unbalanced Number")
 
 
-d = input("Enter a digit")
+# d = input("Enter a digit")
 
-done = ""
+# done = ""
 
-max_count = 0
-max_digit = ""
-total = 0
+# max_count = 0
+# max_digit = ""
+# total = 0
 
-for i in d:
+# for i in d:
 
-    if i not in done:
+#     if i not in done:
 
-        count = 0
+#         count = 0
 
-        for j in d:
-            if i == j:
-                count = count + 1
+#         for j in d:
+#             if i == j:
+#                 count = count + 1
 
-        done = done + i
+#         done = done + i
 
-        if count > 1:
-            print(count, i)
-            total = total + count
+#         if count > 1:
+#             print(count, i)
+#             total = total + count
 
-        if count > max_count:
-            max_count = count
-            max_digit = i
+#         if count > max_count:
+#             max_count = count
+#             max_digit = i
 
-print("Total =", total)
-print("Max Frequency =", max_count)
-print("Max Digit =", max_digit)
+# print("Total =", total)
+# print("Max Frequency =", max_count)
+# print("Max Digit =", max_digit)
