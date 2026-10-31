@@ -319,14 +319,101 @@
 
 
 # Questions===>
-# Find the total number of completed sales for each city where quantity is greater than 2. Display cities in descending order of sales count.
+# # Find the total number of completed sales for each city where quantity is greater than 2. Display cities in descending order of sales count.
+# mysql> select city,count(*) from employees where quantity>2 and status ='completed' group by city order by count(*) desc;
+# ERROR 1146 (42S02): Table 'shop.employees' doesn't exist
+# mysql> select city,count(*) from sales where quantity>2 and status ='completed' group by city order by count(*) desc;
+# +--------+----------+
+# | city   | count(*) |
+# +--------+----------+
+# | Bhopal |        3 |
+# | Indore |        3 |
+# | Mumbai |        2 |
+# | Delhi  |        2 |
+# | Pune   |        1 |
+# +--------+----------+
+# 5 rows in set (0.02 sec)
 # Find the total quantity sold for each category where discount is greater than 300. Display highest quantity first.
 # Find the total sales amount for each city for completed sales only. Display highest-selling city first.
-# Find the average product price for each category where quantity is at least 3. Display categories by average price descending.
+# mysql> select category,count(*) as co from sales where discount>300 group by category order by co desc;
+# +-------------+----+
+# | category    | co |
+# +-------------+----+
+# | Electronics |  6 |
+# | Clothing    |  2 |
+# | Beauty      |  1 |
+# | Sports      |  1 |
+# | Grocery     |  1 |
+# | Furniture   |  1 |
+# +-------------+----+
+# 6 rows in set (0.00 sec)
+# # Find the average product price for each category where quantity is at least 3. Display categories by average price descending.
+# mysql> select category,avg(price) as av from sales where quantity>=3 group by category order by av desc;
+# +-------------+--------------+
+# | category    | av           |
+# +-------------+--------------+
+# | Electronics | 11666.666667 |
+# | Furniture   |  8000.000000 |
+# | Sports      |  3500.000000 |
+# | Clothing    |  1766.666667 |
+# | Books       |   900.000000 |
+# | Grocery     |   900.000000 |
+# | Beauty      |   700.000000 |
+# +-------------+--------------+
+# 7 rows in set (0.02 sec)
+#
 # Find the number of sales for each customer type where the order amount (quantity * price) is greater than 5000. Sort by number of sales descending.
+# mysql> select customer_type,count(*) as co from sales where (quantity*price) >5000 group by customer_type order by co desc;
+# +---------------+----+
+# | customer_type | co |
+# +---------------+----+
+# | Premium       |  6 |
+# | Regular       |  6 |
+# | New           |  3 |
+# +---------------+----+
+# 3 rows in set (0.00 sec)
 # Find the total discount given for each city for UPI transactions. Display highest discount first.
-# Find the total quantity sold through each payment method for completed transactions. Sort by total quantity descending.
+# mysql> SELECT city, COUNT(discount) AS co
+#     -> FROM sales
+#     -> GROUP BY city
+#     -> ORDER BY co DESC;
+# +--------+----+
+# | city   | co |
+# +--------+----+
+# | Indore |  4 |
+# | Bhopal |  3 |
+# | Mumbai |  3 |
+# | Delhi  |  3 |
+# | Pune   |  2 |
+# +--------+----+
+# 5 rows in set (0.00 sec) 
+# # Find the total quantity sold through each payment method for completed transactions. Sort by total quantity descending.
+# select payment_method,count(quantity) as qu from sales where status = "completed" group by payment_method order by qu desc; 
+# mysql> select payment_method,count(quantity) as qu from sales where status = "completed" group by payment_method order by qu desc;
+# +----------------+----+
+# | payment_method | qu |
+# +----------------+----+
+# | upi            |  6 |
+# | card           |  4 |
+# | cash           |  3 |
+# | net banking    |  1 |
+# +----------------+----+
+# 4 rows in set (0.00 sec)
 # Find the average discount for each category where quantity is greater than 4. Display highest average discount first.
+select category,avg(discount) as dis from sales where quantity>4 group by category order by dis desc;
+
+mysql> select category,avg(discount) as dis from sales where quantity>4 group by category order by dis desc;
++-------------+------------+
+| category    | dis        |
++-------------+------------+
+| Grocery     | 500.000000 |
+| Electronics | 500.000000 |
+| Clothing    | 466.666667 |
+| Beauty      | 350.000000 |
+| Books       | 200.000000 |
++-------------+------------+
+5 rows in set (0.00 sec)
+
 # Find the maximum product price for each city where the status is Completed. Sort by maximum price descending.
 # Find the minimum product price for each category where discount is greater than 300. Sort by minimum price ascending.
 # Find cities having more than 2 completed sales. Sort cities by completed sales count descending.
