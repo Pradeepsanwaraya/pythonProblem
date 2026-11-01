@@ -74,6 +74,19 @@
 #                     if live == 3:
 #                         board[i][j] = 1
 
+class Solution(object):
+    def searchBST(self, root, val):
+        if root is None:
+            return None
+
+        if root.val == val:
+            return root
+
+        if val < root.val:
+            return self.searchBST(root.left, val)
+        else:
+            return self.searchBST(root.right, val)
+
 
 # class Solution(object):
 #     def wordPattern(self, pattern, s):
