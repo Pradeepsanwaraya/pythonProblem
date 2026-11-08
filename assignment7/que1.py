@@ -411,3 +411,136 @@ class Solution(object):
         :rtype: bool
         """
         
+        class Solution(object):
+    def successfulPairs(self, spells, potions, success):
+        potions.sort()
+        n = len(potions)
+        ans = []
+
+        for i in spells:
+            left = 0
+            right = n - 1
+            count = 0
+
+            while left <= right:
+                mid = (left + right) // 2
+
+                if i * potions[mid] >= success:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            count = n - left
+            ans.append(count)
+
+        return ansclass Solution(object):
+    def successfulPairs(self, spells, potions, success):
+        potions.sort()
+        n = len(potions)
+        ans = []
+
+        for i in spells:
+            left = 0
+            right = n - 1
+            count = 0
+
+            while left <= right:
+                mid = (left + right) // 2
+
+                if i * potions[mid] >= success:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            count = n - left
+            ans.append(count)
+
+        return ansclass Solution(object):
+    def successfulPairs(self, spells, potions, success):
+        potions.sort()
+        n = len(potions)
+        ans = []
+
+        for i in spells:
+            left = 0
+            right = n - 1
+            count = 0
+
+            while left <= right:
+                mid = (left + right) // 2
+
+                if i * potions[mid] >= success:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            count = n - left
+            ans.append(count)
+
+        return ansclass Solution(object):
+    def successfulPairs(self, spells, potions, success):
+        potions.sort()
+        n = len(potions)
+        ans = []
+
+        for i in spells:
+            left = 0
+            right = n - 1
+            count = 0
+
+            while left <= right:
+                mid = (left + right) // 2
+
+                if i * potions[mid] >= success:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            count = n - left
+            ans.append(count)
+
+        return ansvvclass Solution(object):
+    def successfulPairs(self, spells, potions, success):
+        potions.sort()
+        n = len(potions)
+        ans = []
+
+        for i in spells:
+            left = 0
+            right = n - 1
+            count = 0
+
+            while left <= right:
+                mid = (left + right) // 2
+
+                if i * potions[mid] >= success:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            count = n - left
+            ans.append(count)
+
+        return ansclass Solution(object):
+    def successfulPairs(self, spells, potions, success):
+        potions.sort()
+        n = len(potions)
+        ans = []
+
+        for i in spells:
+            left = 0
+            right = n - 1
+            count = 0
+
+            while left <= right:
+                mid = (left + right) // 2
+
+                if i * potions[mid] >= success:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+
+            count = n - left
+            ans.append(count)
+
+        return ans
