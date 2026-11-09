@@ -544,3 +544,29 @@ class Solution(object):
             ans.append(count)
 
         return ans
+
+
+
+
+
+
+class Solution(object):
+    def copyRandomList(self, head):
+        if head is None:
+            return None
+
+        old = head
+        mp = {}
+
+        while old:
+            mp[old] = Node(old.val)
+            old = old.next
+
+        old = head
+
+        while old:
+            mp[old].next = mp.get(old.next)
+            mp[old].random = mp.get(old.random)
+            old = old.next
+
+        return mp[head]
