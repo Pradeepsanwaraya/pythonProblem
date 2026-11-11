@@ -176,7 +176,832 @@ String2: typhoon
 
 Output:
 {p, t, h, o, n}
+class Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
 
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return resultclass Solution(object):
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        result = []
+
+        def backtrack(start, path, remaining):
+            # Found a valid combination
+            if len(path) == k:
+                if remaining == 0:
+                    result.append(path[:])
+                return
+
+            for num in range(start, 10):
+                # Numbers are increasing, so if num is too big, all later ones are too
+                if num > remaining:
+                    break
+                path.append(num)
+                backtrack(num + 1, path, remaining - num)
+                path.pop()
+
+        backtrack(1, [], n)
+        return result
 7.
 =========================================
 MISSING ALPHABET FINDER
