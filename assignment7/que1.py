@@ -12,7 +12,287 @@
 #     print("8. Display All Unique Club Members")
 #     print("9. Display Total Unique Club Members")
 #     print("10. Exit")
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
 
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def partition(self, head, x):
+        """
+        :type head: Optional[ListNode]
+        :type x: int
+        :rtype: Optional[ListNode]
+        """
+        less_dummy = ListNode(0)
+        more_dummy = ListNode(0)
+        less, more = less_dummy, more_dummy
+
+        while head:
+            if head.val < x:
+                less.next = head
+                less = less.next
+            else:
+                more.next = head
+                more = more.next
+            head = head.next
+
+        more.next = None           # terminate the list to avoid a cycle
+        less.next = more_dummy.next  # connect the two partitions
+
+        return less_dummy.next
 #     choice=int(input("Enter choice: "))
 
 #     if choice==1:
