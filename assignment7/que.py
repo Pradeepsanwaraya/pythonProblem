@@ -1,3 +1,4 @@
+
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -9,7 +10,755 @@ class Solution(object):
 
         mapping = {
             '2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl',
-            '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'
+            '6': class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))class Solution(object):
+    def isSameTree(self, p, q):
+        """
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+
+        if p is None or q is None:
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return (self.isSameTree(p.left, q.left) and
+                self.isSameTree(p.right, q.right))'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'
         }
 
         result = []
