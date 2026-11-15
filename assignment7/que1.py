@@ -1,6 +1,305 @@
 # coding=set()
 # robotics=set()
 
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
+class Solution(object):
+    def suggestedProducts(self, products, searchWord):
+        products.sort()
+
+        result = []
+        prefix = ""
+
+        for ch in searchWord:
+            prefix += ch
+
+            suggestions = []
+
+            for product in products:
+                if product.startswith(prefix):
+                    suggestions.append(product)
+
+                if len(suggestions) == 3:
+                    break
+
+            result.append(suggestions)
+
+        return result
+
 # while True:
 #     print("1. Add Student to Coding Club")
 #     print("2. Add Student to Robotics Club")
