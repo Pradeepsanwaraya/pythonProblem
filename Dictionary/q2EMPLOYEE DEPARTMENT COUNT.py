@@ -33,6 +33,135 @@ class Solution(object):
 
         return head
 {'HR': 2, 'IT': 3, 'Sales': 1, 'Finance': 1}
+class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]
 
 ---
 
@@ -50,6 +179,423 @@ class Solution(object):
 # print(freq)
 
 #WAY----2
+class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        m = len(text1)
+        n = len(text2)
+
+        dp = [[0] * (n + 1) for i in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+
+                if text1[i - 1] == text2[j - 1]:
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+
+                else:
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        return dp[m][n]
 employees = ["HR","IT","HR","Sales","IT","IT","Finance"]
 freq={}
 for i in  range(len(employees)):
