@@ -25,7 +25,194 @@ def vowelcount():
     vowels=list("AEIOUaeiou")
     for vowel in content:
         if vowel in vowels:
-            count+=1
+            count+=1class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))class Solution(object):
+    def hasPathSum(self, root, targetSum):
+        """
+        :type root: Optional[TreeNode]
+        :type targetSum: int
+        :rtype: bool
+        """
+
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (self.hasPathSum(root.left, remaining) or
+                self.hasPathSum(root.right, remaining))
         else:
             consonent+=1
     return count,consonent
